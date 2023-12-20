@@ -17,9 +17,6 @@ public class Cat extends Animal {
 
     @Override
     public void swim(double meters) {
-        if ((meters < 0.1)) {
-            System.out.println("cat swim true");
-        }
-        else{System.out.println("cat swim false");}
+        System.out.println("cat can't swim");
     }
 }
